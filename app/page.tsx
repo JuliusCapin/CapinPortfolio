@@ -1,6 +1,8 @@
 "use client";
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/next"
+
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
  
